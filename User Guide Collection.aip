@@ -183,7 +183,7 @@
     <ROW Dialog_="LicenseAgreementDlg" Control="Description" Type="Text" X="25" Y="23" Width="304" Height="15" Attributes="196611" Text="Please read the following license agreement carefully" Order="700" TextLocId="Control.Text.LicenseAgreementDlg#Description" MsiKey="LicenseAgreementDlg#Description"/>
     <ROW Dialog_="LicenseAgreementDlg" Control="Title" Type="Text" X="15" Y="6" Width="304" Height="15" Attributes="196611" Text="End-User License Agreement" TextStyle="[DlgTitleFont]" Order="800" TextLocId="Control.Text.LicenseAgreementDlg#Title" MsiKey="LicenseAgreementDlg#Title"/>
     <ROW Dialog_="LicenseAgreementDlg" Control="BannerLine" Type="Line" X="0" Y="44" Width="372" Height="0" Attributes="1" Order="900" MsiKey="LicenseAgreementDlg#BannerLine"/>
-    <ROW Dialog_="LicenseAgreementDlg" Control="AgreementText" Type="ScrollableText" X="20" Y="59" Width="330" Height="160" Attributes="7" Text="..\..\..\..\MSI\User Guide Collection\User Guide Collection-files\license-userguidecollection.com.rtf" Order="1000" TextLocId="Control.Text.LicenseAgreementDlg#AgreementText" MsiKey="LicenseAgreementDlg#AgreementText"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="AgreementText" Type="ScrollableText" X="20" Y="59" Width="330" Height="160" Attributes="7" Text="&lt;WindowsVolume&gt;MSI\User Guide Collection\User Guide Collection-files\license-userguidecollection.com.rtf" Order="1000" TextLocId="Control.Text.LicenseAgreementDlg#AgreementText" MsiKey="LicenseAgreementDlg#AgreementText"/>
     <ROW Dialog_="MaintenanceTypeDlg" Control="Back" Type="PushButton" X="0" Y="0" Width="1" Height="1" Attributes="3" Text="[ButtonText_Back]" Order="700" TextLocId="-" MsiKey="MaintenanceTypeDlg#Back" Options="1"/>
     <ROW Dialog_="MaintenanceTypeDlg" Control="Next" Type="PushButton" X="294" Y="246" Width="56" Height="17" Attributes="1" Text="[ButtonText_Next]" Order="800" TextLocId="-" MsiKey="MaintenanceTypeDlg#Next" Options="1"/>
     <ROW Dialog_="MaintenanceTypeDlg" Control="Cancel" Type="PushButton" X="0" Y="0" Width="1" Height="1" Attributes="3" Text="[ButtonText_Cancel]" Order="900" TextLocId="-" MsiKey="MaintenanceTypeDlg#Cancel" Options="1"/>
@@ -355,7 +355,7 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
     <ROW Name="devicemanuals.exe" SourcePath="D:\AT\260216 - 2 apps\Device Manuals Online\Device Manuals Online - files\devicemanuals.ico" Index="0"/>
-    <ROW Name="userguidecollection.com.exe" SourcePath="..\..\..\..\MSI\User Guide Collection\User Guide Collection-files\userguidecollection.com.ico" Index="0"/>
+    <ROW Name="userguidecollection.com.exe" SourcePath="&lt;WindowsVolume&gt;MSI\User Guide Collection\User Guide Collection-files\userguidecollection.com.ico" Index="0"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
     <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
